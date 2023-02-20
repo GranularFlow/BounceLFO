@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 17
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BounceLFO - Standalone Plugin", "BounceLFO_StandalonePlugin.vcxproj", "{3EEDFEE7-83A4-E25E-02BF-BE34991D8F18}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7BB7A22D-038A-EDC3-D550-5D85A3EF31D9} = {7BB7A22D-038A-EDC3-D550-5D85A3EF31D9}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BounceLFO - VST3", "BounceLFO_VST3.vcxproj", "{5B4695A2-5A6A-7BB6-FA89-16EE4A6FC737}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7BB7A22D-038A-EDC3-D550-5D85A3EF31D9} = {7BB7A22D-038A-EDC3-D550-5D85A3EF31D9}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BounceLFO - Shared Code", "BounceLFO_SharedCode.vcxproj", "{7BB7A22D-038A-EDC3-D550-5D85A3EF31D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B4695A2-5A6A-7BB6-FA89-16EE4A6FC737}.Debug|x64.ActiveCfg = Debug|x64
+		{5B4695A2-5A6A-7BB6-FA89-16EE4A6FC737}.Debug|x64.Build.0 = Debug|x64
+		{5B4695A2-5A6A-7BB6-FA89-16EE4A6FC737}.Release|x64.ActiveCfg = Release|x64
+		{5B4695A2-5A6A-7BB6-FA89-16EE4A6FC737}.Release|x64.Build.0 = Release|x64
+		{3EEDFEE7-83A4-E25E-02BF-BE34991D8F18}.Debug|x64.ActiveCfg = Debug|x64
+		{3EEDFEE7-83A4-E25E-02BF-BE34991D8F18}.Debug|x64.Build.0 = Debug|x64
+		{3EEDFEE7-83A4-E25E-02BF-BE34991D8F18}.Release|x64.ActiveCfg = Release|x64
+		{3EEDFEE7-83A4-E25E-02BF-BE34991D8F18}.Release|x64.Build.0 = Release|x64
+		{7BB7A22D-038A-EDC3-D550-5D85A3EF31D9}.Debug|x64.ActiveCfg = Debug|x64
+		{7BB7A22D-038A-EDC3-D550-5D85A3EF31D9}.Debug|x64.Build.0 = Debug|x64
+		{7BB7A22D-038A-EDC3-D550-5D85A3EF31D9}.Release|x64.ActiveCfg = Release|x64
+		{7BB7A22D-038A-EDC3-D550-5D85A3EF31D9}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
